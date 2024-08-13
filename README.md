@@ -7,3 +7,6 @@ fxproxy docker-compose
 3. edit `.env`
 4. `docker compose up -d`
 5. enjoy
+
+## Cfx.re Forum
+https://forum.cfx.re/t/optimizing-resource-downloads-using-a-caching-proxy/851508
