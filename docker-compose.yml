@@ -6,6 +6,6 @@ services:
         environment:
             REMOTE: ${REMOTE}
         volumes:
-            ./cache:/srv/cache
+           - ./cache:/srv/cache
         ports:
             80:80
