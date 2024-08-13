@@ -1,4 +1,4 @@
-# fivem-cdn
+# fxproxy
 fxproxy docker-compose
 
 # How to use?
