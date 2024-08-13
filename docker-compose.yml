@@ -8,4 +8,4 @@ services:
         volumes:
            - ./cache:/srv/cache
         ports:
-            80:80
+            - 80:80
