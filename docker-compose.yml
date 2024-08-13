@@ -1,0 +1,11 @@
+services:
+    fxproxy:
+        build: .
+        container_name: fxproxy
+        restart: always
+        environment:
+            REMOTE: ${REMOTE}
+        volumes:
+            ./cache:/srv/cache
+        ports:
+            80:80
